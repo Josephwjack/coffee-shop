@@ -8,7 +8,7 @@ _Users can add a new selection of coffee to the shop, coffee comes in 130lb burl
 
 ## Diagram
 
-<div style="display: flex; justify-content: center"><img src="./src/img/diagram.png"></div>
+<div style="display: flex; justify-content: center"><img src="./src/Img/diagram.png"></div>
 
 ## Available Scripts
 
