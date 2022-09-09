@@ -4,19 +4,21 @@ import '../App.css';
 import Header from './Header';
 import CoffeeControl from './CoffeeControl';
 // import Typography from '@mui/material/Typography';
-import { Grid , Typography} from '@mui/material';
+import { Grid , Typography, Container} from '@mui/material';
 
 
 function App() {
+  
   return (
     <React.Fragment>
-      <div className="bg">
+      
+        <Container>
         <Grid item container><Header /></Grid>   
               <Typography>
               <CoffeeControl />    
               </Typography>
-         
-      </div>
+              </Container>
+      
     </React.Fragment>
   );
 }

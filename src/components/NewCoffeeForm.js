@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import ReusableForm from './ReusableForm';
 
 function NewCoffeeForm(props){
-
+  
   return (
     <React.Fragment>
       <ReusableForm
@@ -12,7 +12,7 @@ function NewCoffeeForm(props){
         buttonText="Add" />
     </React.Fragment>
   );
-  
+
   function handleNewCoffeeFormSubmission(event) {
     event.preventDefault();
     props.onNewCoffeeCreation({
