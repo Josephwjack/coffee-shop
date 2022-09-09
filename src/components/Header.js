@@ -9,7 +9,7 @@ function Header(){
     <AppBar position="static">
       <Toolbar>
 
-        <Typography></Typography>
+        <Typography variant="h5" >Cup of Joe's Cafe</Typography>
       </Toolbar>
     </AppBar>
   );

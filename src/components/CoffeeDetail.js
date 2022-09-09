@@ -6,7 +6,7 @@ import {Button, ButtonGroup, Card} from '@mui/material';
 
 function CoffeeDetail(props){
   const { coffee } = props;
-
+  
   return (
     <React.Fragment>
       <Card >

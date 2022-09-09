@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# React Coffee Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Joseph Jack
+
+## Description
+
+_Users can add a new selection of coffee to the shop, coffee comes in 130lb burlap sacks. Users can edit/delete entire entries or sell 1lb of coffee at a time. React week 2 project._
+
+## Diagram
+
+<div style="display: flex; justify-content: center"><img src="./src/img/diagram.png"></div>
 
 ## Available Scripts
 

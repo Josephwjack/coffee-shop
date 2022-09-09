@@ -6,6 +6,7 @@ import EditCoffeeForm from './EditCoffeeForm';
 import Button from '@mui/material/Button';
 
 
+
 class CoffeeControl extends React.Component {
 
   constructor(props) {
@@ -40,7 +41,7 @@ class CoffeeControl extends React.Component {
   }
 
   handleSellingCoffee = (id) => {
-    const soldCoffee = this.state.mainCoffeeList.filter((coffee) => coffee.id === id)[0];
+    const soldCoffee = this.state.mainCoffeeList.filter((coffee) => coffee.id === id)[0];   
     if (soldCoffee.pounds === 0) {
       return soldCoffee.pounds;
     } else {
