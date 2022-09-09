@@ -7,7 +7,10 @@ function CoffeeDetail(props){
   return (
     <React.Fragment>
       <h2>Coffee Details</h2>
-      <h4>{coffee.name} - {coffee.roast}</h4>
+      <h4>Name: {coffee.name}</h4>
+      <h4>Roast: {coffee.roast}</h4>
+      <h4>Origin: {coffee.origin}</h4>
+      <h4>Price: {coffee.price}</h4>
 
       <button onClick={ props.onClickingEdit }>Edit Item</button>
       <hr/>

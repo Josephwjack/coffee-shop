@@ -13,6 +13,7 @@ class CoffeeControl extends React.Component {
       mainCoffeeList: [],
       selectedCoffee: null,
       editing: false,
+      pounds: 130,
     };
     this.handleClick = this.handleClick.bind(this);
   }
