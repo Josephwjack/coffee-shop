@@ -18,6 +18,8 @@ function ReusableForm(props) {
           type='text'
           name='origin'
           placeholder='Example: Costa Rica' />
+
+        <button type='submit'>{props.buttonText}</button>
       </form>
     </React.Fragment>
   );
