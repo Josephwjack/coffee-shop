@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import Button from '@mui/material/Button';
 
 function ReusableForm(props) {
 
@@ -24,7 +24,7 @@ function ReusableForm(props) {
           name='price'
           placeholder='Price'/>
 
-        <button type='submit'>{props.buttonText}</button>
+        <Button variant="outlined" type='submit'>{props.buttonText}</Button>
       </form>
     </React.Fragment>
   );

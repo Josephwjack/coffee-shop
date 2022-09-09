@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Button, ButtonGroup, Card} from '@mui/material';
+
 
 
 function CoffeeDetail(props){
@@ -7,16 +9,20 @@ function CoffeeDetail(props){
 
   return (
     <React.Fragment>
+      <Card >
       <h2>Coffee Details</h2>
       <h4>Name: {coffee.name}</h4>
       <h4>Roast: {coffee.roast}</h4>
       <h4>Origin: {coffee.origin}</h4>
       <h4>Price: {coffee.price}</h4>
+      <h4>Inventory: {coffee.pounds}lbs.</h4>
       <hr/>
-      <button onClick={()=> props.onClickingSell(coffee.id)}>Sell 1 pound</button>
-      <button onClick={ props.onClickingEdit }>Edit Item</button>
-      <hr/>
-      <button onClick={()=> props.onClickingDelete(coffee.id)}>Delete Coffee</button>
+      <ButtonGroup variant="outlined" aria-label="large button group">
+      <Button onClick={()=> props.onClickingSell(coffee.id)}>Sell 1 pound</Button>
+      <Button onClick={ props.onClickingEdit }>Edit Item</Button>
+      <Button onClick={()=> props.onClickingDelete(coffee.id)}>Delete Coffee</Button>
+      </ButtonGroup>
+      </Card>
     </React.Fragment>
   );
 }

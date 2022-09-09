@@ -1,13 +1,15 @@
 import React from 'react';
 import Coffee from './Coffee';
 import PropTypes from 'prop-types';
+import { Card }from '@mui/material';
 
 function CoffeeList(props) {
-
+  
   return (
     <React.Fragment>
       <hr/>
-      {props.coffeeList.map((coffee) =>
+      <Card>
+      {props.coffeeList.map((coffee) =>     
       <Coffee
         whenCoffeeClicked = {props.onCoffeeSelection}
         name={coffee.name}
@@ -17,7 +19,7 @@ function CoffeeList(props) {
         id={coffee.id}
         key={coffee.id}
       />
-      )}
+      )}</Card>
     </React.Fragment>
   );
 }
