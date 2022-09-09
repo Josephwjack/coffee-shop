@@ -1,5 +1,7 @@
 import React from 'react';
-import {AppBar, Toolbar, Typography} from 'mui/material';
+import AppBar from '@mui/material/AppBar';
+import Typography from '@mui/material/Typography';
+import Toolbar from '@mui/material/Toolbar';
 
 function Header(){
 

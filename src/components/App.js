@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import React from 'react';
 import '../App.css';
+import Header from './Header';
+import CoffeeControl from './CoffeeControl';
+
 
 function App() {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 function ReusableForm(props) {
 
   return (
@@ -18,6 +19,10 @@ function ReusableForm(props) {
           type='text'
           name='origin'
           placeholder='Example: Costa Rica' />
+        <input
+          type='number'
+          name='price'
+          placeholder='Price'/>
 
         <button type='submit'>{props.buttonText}</button>
       </form>

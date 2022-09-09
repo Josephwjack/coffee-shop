@@ -5,6 +5,14 @@ import ReusableForm from './ReusableForm';
 
 function NewCoffeeForm(props){
 
+  return (
+    <React.Fragment>
+      <ReusableForm
+        formSubmissionHandler={handleNewCoffeeFormSubmission} 
+        buttonText="Add" />
+    </React.Fragment>
+  );
+  
   function handleNewCoffeeFormSubmission(event) {
     event.preventDefault();
     props.onNewCoffeeCreation({
@@ -17,13 +25,6 @@ function NewCoffeeForm(props){
       
     });
   }
-  return (
-    <React.Fragment>
-      <ReusableForm
-        formSubmissionHandler={handleNewCoffeeFormSubmission} 
-        buttonText="Add" />
-    </React.Fragment>
-  );
 }
 
 NewCoffeeForm.propTypes = {
