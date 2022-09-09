@@ -15,7 +15,7 @@ function App() {
               <Typography>
               <CoffeeControl />    
               </Typography>
-            
+         
       </div>
     </React.Fragment>
   );

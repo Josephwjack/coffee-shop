@@ -4,7 +4,9 @@ import Button from '@mui/material/Button';
 
 function ReusableForm(props) {
   const reusableFormStyles = {
-    width: 'auto'
+    width: 'auto',
+    padding: "5px",
+    
   }
   return (
     <React.Fragment>

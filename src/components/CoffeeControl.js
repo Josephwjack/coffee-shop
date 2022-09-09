@@ -109,6 +109,7 @@ class CoffeeControl extends React.Component {
 
     return (
     <React.Fragment>
+      
       {currentlyVisibleState}
       <Button variant="contained" onClick={this.handleClick}>{buttonText}</Button>
     </React.Fragment>

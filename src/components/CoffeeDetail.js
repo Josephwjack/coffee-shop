@@ -16,6 +16,7 @@ function CoffeeDetail(props){
       <h4>Origin: {coffee.origin}</h4>
       <h4>Price: {coffee.price}</h4>
       <h4>Inventory: {coffee.pounds}lbs.</h4>
+      
       <hr/>
       <ButtonGroup variant="outlined" aria-label="large button group">
       <Button onClick={()=> props.onClickingSell(coffee.id)}>Sell 1 pound</Button>
