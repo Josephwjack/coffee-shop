@@ -4,7 +4,7 @@ import '../App.css';
 import Header from './Header';
 import CoffeeControl from './CoffeeControl';
 // import Typography from '@mui/material/Typography';
-import { Grid , Typography, Container} from '@mui/material';
+import { Grid , Container} from '@mui/material';
 
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
       
         <Container>
         <Grid item container><Header /></Grid>   
-              <Typography>
+              {/* <Typography> */}
               <CoffeeControl />    
-              </Typography>
+              {/* </Typography> */}
               </Container>
       
     </React.Fragment>
