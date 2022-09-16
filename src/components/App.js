@@ -10,14 +10,8 @@ function App() {
   
   return (
     <React.Fragment>
-      
-   
-        <Grid item container><Header /></Grid>   
-           
-              <CoffeeControl />    
-           
-      
-      
+      <Grid item container><Header /></Grid>   
+        <CoffeeControl />    
     </React.Fragment>
   );
 }
