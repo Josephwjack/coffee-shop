@@ -26,7 +26,6 @@ _Users can add a new selection of coffee to the shop, coffee comes in 130lb burl
 - Styling could be better
 
 
-
 ## Available Scripts
 
 In the project directory, you can run:
