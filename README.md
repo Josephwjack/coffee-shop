@@ -12,15 +12,19 @@ _Users can add a new selection of coffee to the shop, coffee comes in 130lb burl
 
 ## Technologies Used
 
--
--
--
+- JavaScript
+- React 
+- Redux
+- Material UI
+- Bootstrap / Reactstrap
+- HTML
+- Git
 
 ## Known Bugs
 
-- 
--
--
+- Edit form will not autopopulate with previous data
+- Styling could be better
+
 
 
 ## Available Scripts
